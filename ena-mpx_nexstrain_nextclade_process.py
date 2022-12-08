@@ -99,6 +99,7 @@ print('\n\n> Run analysis Nextstrain pipeline ... [ '+str(datetime.now())+" ]")
 
 os.system("cd packages/monkeypox ; nextstrain build --docker --cpus 1 . --configfile config/config_mpxv.yaml")
 os.system("cp packages/monkeypox/auspice/* packages/aupice_res/aupice/")
+os.system("sh rename_view.sh")
 # os.system("cd packages/monkeypox ; nextstrain build --docker --cpus 1 . --configfile config/config_hmpxv1.yaml") 
 
 
