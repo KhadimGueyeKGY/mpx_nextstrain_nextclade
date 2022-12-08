@@ -1,15 +1,15 @@
 {
-  "title": "Genomic epidemiology of monkeypox virus",
+  "title": "Genomic epidemiology of monkeypox virus on data from ENA",
   "maintainers": [
-    {"name": "Nextstrain team", "url": "http://nextstrain.org"}
+    {"name": "EMBL-EBI ENA team", "url": "https://www.insdc.org/"}
   ],
   "data_provenance": [
     {
-      "name": "GenBank",
-      "url": "https://www.ncbi.nlm.nih.gov/genbank/"
+      "name": "INSDC",
+      "url": "https://www.ebi.ac.uk/ena/pathogens/v2/monkeypox?db=embl-mpox"
     }
   ],
-  "build_url": "https://github.com/nextstrain/monkeypox",
+  "build_url": "https://github.com/KhadimGueyeKGY/ena_mpx_phylogeny",
   "colorings": [
     {
       "key": "outbreak",
