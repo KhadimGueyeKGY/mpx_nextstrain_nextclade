@@ -37,9 +37,9 @@ def generate_final_file(input_filename):
             if line.strip():  # Check if the line is not empty
                 columns = line.split("\t")
                 if len(columns) >= 4:
-                    accession = columns[0]
-                    clade = columns[1]
-                    lineage = columns[3]
+                    accession = columns[1]
+                    clade = columns[2]
+                    lineage = columns[4]
                     csv_writer.writerow([accession, clade, lineage])
 
     return new_file
