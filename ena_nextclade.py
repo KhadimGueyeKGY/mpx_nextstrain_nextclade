@@ -52,6 +52,7 @@ def main():
         monkeypox = pathogens()
         DownData.downdata( monkeypox , 'data/mpxv')
         DownData.fataprep('data/mpxv','data/all_consensus/')
+        nextclade.nextclade_new_version('package/nextclade')
         nextclade.Downloaddataset('package/datasets/mpxv')
         nextclade.run_nextclade('package/datasets/mpxv','data/all_consensus/sequences.fasta','output/nextclade.tsv')
         new_file = generate_final_file ("output/nextclade.tsv" )
